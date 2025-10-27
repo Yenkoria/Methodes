@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Methodes {
     public static void numberSquared(int number) {
-        int result = number * number;
+        return number * number;
+        
         System.out.println("Квадрат числа " +number+" дорівнює "+ result);
     }
     public static double volumeOfCylinder(double radius, double height) {
@@ -41,7 +42,7 @@ public class Methodes {
 
         System.out.print("1) Введіть ціле число: ");
         int userInput = scanner.nextInt();
-        numberSquared(userInput);
+        System.out.println("Квадрат числа " + userInput +" дорівнює "+ numberSquared(userInput));
 
         System.out.print("2) Введіть радіус циліндра:");
         double radiusInput = scanner.nextDouble();
