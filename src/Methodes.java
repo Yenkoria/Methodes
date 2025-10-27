@@ -4,7 +4,7 @@ public class Methodes {
     public static void numberSquared(int number) {
         return number * number;
         
-        System.out.println("Квадрат числа " +number+" дорівнює "+ result);
+        
     }
     public static double volumeOfCylinder(double radius, double height) {
         return radius *radius * height * Math.PI;
